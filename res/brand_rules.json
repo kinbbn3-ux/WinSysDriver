@@ -1,0 +1,47 @@
+{
+  "Dell": {
+    "install_order": [
+      "芯片组",
+      "Management Engine",
+      "存储控制器",
+      "显卡",
+      "声卡",
+      "网卡",
+      "无线网卡",
+      "蓝牙",
+      "触控板",
+      "USB 控制器",
+      "外设"
+    ],
+    "notes": "Dell 驱动通常使用 Dell Update Package (DUP) 封装，支持 /s 静默安装"
+  },
+  "HP": {
+    "install_order": [
+      "芯片组",
+      "存储控制器",
+      "显卡",
+      "声卡",
+      "网卡",
+      "无线网卡",
+      "蓝牙",
+      "触控板",
+      "外设"
+    ],
+    "notes": "HP 驱动通常使用 SoftPaq 封装，支持 /s /e 静默安装"
+  },
+  "ASUS": {
+    "install_order": [
+      "芯片组",
+      "Management Engine",
+      "存储控制器",
+      "显卡",
+      "声卡",
+      "网卡",
+      "无线网卡",
+      "蓝牙",
+      "触控板",
+      "外设"
+    ],
+    "notes": "ASUS 驱动需要注意 Armoury Crate 相关组件的安装顺序"
+  }
+}
